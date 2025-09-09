@@ -1,6 +1,26 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
-# website: https://www.langchain.com/
-# website: https://www.langchain.com/langgraph
+# Git
 
-# LangGraph
-.langgraph_api/
+.git
+
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+.mypy_cache
+
+# Other
+
+.idea/
+*.iml
+
+# Secrets
+
+.env
+
+# Data
+
+data
+assets
